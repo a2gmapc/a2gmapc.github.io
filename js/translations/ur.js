@@ -1,0 +1,105 @@
+// Urdu Translations
+const ur = {
+    nav_home: "ہوم",
+    nav_tutorial: "ٹیوٹوریل",
+    nav_privacy: "پرائیویسی پالیسی",
+    hero_title: "کیا آپ تھک گئے ہیں کہ Apple Maps کے لنکس Android پر صحیح طریقے سے کام نہیں کرتے؟",
+    hero_subtitle: "Apple 2 Google Maps Converter اس مسئلے کو ہمیشہ کے لیے حل کر دیتا ہے۔",
+    hero_button: "ابھی ڈاؤن لوڈ کریں",
+    features_title: "آپ کو A2GMC کی ضرورت کیوں ہے؟",
+    feature1_title: "ٹوٹے ہوئے لنکس",
+    feature1_text: "Apple Maps کے لنکس Android ڈیوائسز پر صحیح طریقے سے کام نہیں کرتے۔",
+    feature2_title: "وقت کا ضیاع",
+    feature2_text: "دستی طور پر کوآرڈینیٹ کاپی کرنا قیمتی وقت ضائع کرتا ہے۔",
+    feature3_title: "براہ راست نیویگیشن",
+    feature3_text: "A2GMC کے ساتھ، کوئی بھی Apple Maps لنک خودکار طور پر Google Maps میں کھل جائے گا۔",
+    howitworks_title: "یہ کیسے کام کرتا ہے؟",
+    step1_text: "Apple Maps لنک وصول کریں",
+    step2_text: "اسے A2GMC کے ساتھ شیئر کریں یا براہ راست کھولیں",
+    step3_text: "ہو گیا! یہ خودکار طور پر Google Maps میں کھل جائے گا",
+    download_title: "ایپ ڈاؤن لوڈ کریں",
+    download_subtitle: "تمام Android ڈیوائسز کے لیے Google Play Store پر دستیاب",
+    download_compatibility: "Android 6.0 اور اس کے بعد کے ورژن کے ساتھ مطابقت پذیر",
+    footer_links: "لنکس",
+    footer_social: "ہمیں فالو کریں",
+    footer_copyright: "© 2023 Apple 2 Google Maps Converter۔ تمام حقوق محفوظ ہیں۔",
+    tutorial_title: "Apple 2 Google Maps Converter کا استعمال کیسے کریں",
+    tutorial_subtitle: "ہماری ایپلیکیشن کو کنفیگر اور استعمال کرنے کے لیے ان آسان اقدامات کی پیروی کریں",
+    
+    // Setup Instructions  
+    tutorial_setup_title: "ابتدائی کنفیگریشن",
+    tutorial_setup_step1: "Google Play Store سے A2GMC ڈاؤن لوڈ اور انسٹال کریں",
+    tutorial_setup_step2: "ایپلیکیشن کھولیں اور کنفیگریشن کی ہدایات کی پیروی کریں",
+    tutorial_setup_step3: "درخواست کرنے پر ضروری اجازات فراہم کریں",
+    
+    // Usage Methods
+    tutorial_usage_title: "استعمال کے طریقے",
+    tutorial_method1_title: "طریقہ 1: براہ راست شیئرنگ",
+    tutorial_method1_desc: "جب آپ کو Apple Maps لنک ملے تو شیئر آپشن استعمال کر کے اسے A2GMC کو بھیجیں",
+    tutorial_method2_title: "طریقہ 2: خودکار کھولنا", 
+    tutorial_method2_desc: "کنفیگریشن کے بعد، صرف Apple Maps لنکس پر ٹیپ کریں اور وہ خودکار طور پر Google Maps میں کھل جائیں گے",
+    
+    // Device Specific
+    tutorial_android_title: "Android کے لیے مخصوص ہدایات",
+    tutorial_android_step1: "Settings > Apps > Default apps میں جائیں",
+    tutorial_android_step2: "'Open links' تلاش کریں اور A2GMC منتخب کریں",
+    tutorial_android_step3: "A2GMC کے لیے 'Open supported links' فعال کریں",
+    
+    // Troubleshooting
+    tutorial_troubleshooting_title: "مسائل کا حل",
+    tutorial_troubleshooting_q1: "ایپ خودکار طور پر نہیں کھل رہا؟",
+    tutorial_troubleshooting_a1: "چیک کریں کہ A2GMC آپ کے ڈیوائس کی سیٹنگز میں Apple Maps لنکس کے لیے ڈیفالٹ ایپ کے طور پر سیٹ ہے",
+    tutorial_troubleshooting_q2: "لنکس کنورٹ نہیں ہو رہے؟",
+    tutorial_troubleshooting_a2: "یقینی بنائیں کہ آپ نے تمام ضروری اجازات دی ہیں اور ایپلیکیشن کو دوبارہ شروع کریں",
+    faq_title: "اکثر پوچھے جانے والے سوالات",
+    faq_q1: "ایپ کو لنکس کھولنے کی اجازت کی ضرورت کیوں ہے؟",
+    faq_a1: "A2GMC کو Apple Maps لنکس کو روکنے اور Google Maps پر ری ڈائریکٹ کرنے کے لیے اس اجازت کی ضرورت ہے۔",
+    faq_q2: "کیا ایپ میرا لوکیشن ڈیٹا جمع کرتا ہے؟",
+    faq_a2: "نہیں۔ A2GMC کوئی لوکیشن ڈیٹا جمع یا اسٹور نہیں کرتا۔",
+    faq_q3: "کیا یہ تمام Apple Maps لنکس کے ساتھ کام کرتا ہے؟",
+    faq_a3: "جی ہاں، A2GMC تمام Apple Maps لنک فارمیٹس کے ساتھ کام کرنے کے لیے ڈیزائن کیا گیا ہے۔",
+    privacy_title: "پرائیویسی پالیسی",
+    privacy_effective_date: "نافذ ہونے کی تاریخ: 1 جنوری 2023",
+    privacy_intro: "یہ پرائیویسی پالیسی بیان کرتی ہے کہ Apple 2 Google Maps Converter (\"ہم\"، \"ہمارا\" یا \"ایپ\") آپ کی معلومات کو کیسے جمع، استعمال اور محفوظ کرتا ہے۔",
+    privacy_collection_title: "معلومات کا جمع کرنا",
+    privacy_collection_desc: "ہماری ایپلیکیشن کوئی ذاتی ڈیٹا یا لوکیشن کی معلومات جمع، اسٹور یا منتقل نہیں کرتی۔ ایپ مکمل طور پر آپ کے ڈیوائس پر کام کرتا ہے۔",
+    privacy_usage_title: "معلومات کا استعمال", 
+    privacy_usage_desc: "چونکہ ہم کوئی ذاتی معلومات جمع نہیں کرتے، اس لیے رپورٹ کرنے کے لیے کوئی ڈیٹا کا استعمال نہیں ہے۔",
+    privacy_sharing_title: "معلومات کا اشتراک",
+    privacy_sharing_desc: "ہم کوئی معلومات شیئر نہیں کرتے کیونکہ ہم کوئی جمع نہیں کرتے۔",
+    privacy_security_title: "سیکیورٹی",
+    privacy_security_desc: "آپ کی پرائیویسی محفوظ ہے کیونکہ ایپ بغیر ڈیٹا ٹرانسمیشن کے مقامی طور پر کام کرتا ہے۔",
+    privacy_changes_title: "اس پالیسی میں تبدیلیاں",
+    privacy_changes_desc: "ہم وقتاً فوقتاً اس پرائیویسی پالیسی کو اپ ڈیٹ کر سکتے ہیں۔ تبدیلیاں اس صفحے پر پوسٹ کی جائیں گی۔",
+    privacy_contact_title: "ہم سے رابطہ کریں",
+    privacy_contact_desc: "اگر اس پرائیویسی پالیسی کے بارے میں آپ کے کوئی سوالات ہیں تو ہم سے رابطہ کریں:",
+    privacy_contact_email: "ای میل کے ذریعے: a2gmapc@gmail.com",
+    
+    // Additional content
+    app_name: "Apple 2 Google Maps Converter",
+    app_short_name: "A2GMC",
+    loading: "لوڈ ہو رہا ہے...",
+    error: "خرابی",
+    success: "کامیابی",
+    try_again: "دوبارہ کوشش کریں",
+    close: "بند کریں",
+    open: "کھولیں",
+    share: "شیئر کریں",
+    install: "انسٹال کریں",
+    
+    // Extra tutorial content
+    tutorial_tips_title: "مفید تجاویز",
+    tutorial_tip1: "یقینی بنائیں کہ A2GMC تمام Apple Maps لنکس کے لیے ڈیفالٹ ایپ کے طور پر سیٹ ہے",
+    tutorial_tip2: "اگر ایپ کام نہیں کر رہا تو سیٹنگز میں ایپ کا کیش صاف کرنے کی کوشش کریں",
+    tutorial_tip3: "یہ ایپ آف لائن کام کرتا ہے اور انٹرنیٹ کنکشن کی ضرورت نہیں",
+    tutorial_tip4: "آپ اس ایپ کو کسی بھی انسٹال شدہ میپ ایپ کے ساتھ استعمال کر سکتے ہیں",
+    tutorial_note: "نوٹ: یہ ایپ خاص طور پر Android صارفین کے لیے ڈیزائن کیا گیا ہے جو اکثر Apple Maps لنکس وصول کرتے ہیں",
+    
+    // Additional FAQ
+    faq_q4: "کیا یہ ایپ مفت ہے؟",
+    faq_a4: "جی ہاں، A2GMC مکمل طور پر مفت ہے اور اس میں کوئی اشتہارات یا ان-ایپ خریداری نہیں ہے۔",
+    faq_q5: "ایپ کو کیسے ہٹائیں؟",
+    faq_a5: "آپ A2GMC کو کسی بھی دوسرے Android ایپ کی طرح ڈیوائس کی سیٹنگز کے ذریعے ہٹا سکتے ہیں۔"
+};
+
+export default ur;

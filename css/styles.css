@@ -103,6 +103,201 @@ header {
     transition: all 0.3s ease;
 }
 
+/* Language Selector */
+.language-selector {
+    position: relative;
+    margin-left: 1rem;
+}
+
+.language-current {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--dark-color);
+    transition: all 0.3s ease;
+    min-width: 80px;
+    justify-content: center;
+}
+
+.language-current:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(66, 133, 244, 0.3);
+}
+
+.language-current .flag {
+    font-size: 1.2rem;
+}
+
+.language-current .lang-code {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.language-current i {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.language-current:hover i {
+    transform: rotate(180deg);
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    min-width: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.language-dropdown.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.language-option:last-child {
+    border-bottom: none;
+}
+
+.language-option:hover {
+    background-color: var(--light-gray);
+}
+
+.language-option .flag {
+    font-size: 1.1rem;
+    width: 24px;
+    text-align: center;
+}
+
+.language-option .lang-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+/* Custom scrollbar for language dropdown */
+.language-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.language-dropdown::-webkit-scrollbar-track {
+    background: var(--light-gray);
+    border-radius: 3px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 3px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #3367d6;
+}
+
+/* RTL Support for Arabic and Urdu */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .navbar {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-links {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-links li {
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+[dir="rtl"] .hero {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-content {
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+[dir="rtl"] .logo {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .logo img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+[dir="rtl"] .language-selector {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+[dir="rtl"] .language-dropdown {
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .footer-content {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .social-icons a {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    [dir="rtl"] .nav-links {
+        left: 0;
+        right: auto;
+        transform: translateX(-100%);
+    }
+
+    [dir="rtl"] .nav-active {
+        transform: translateX(0%);
+    }
+
+    [dir="rtl"] .hero-content {
+        padding-left: 0;
+    }
+
+    [dir="rtl"] .language-selector {
+        margin-right: 0.5rem;
+    }
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -619,6 +814,25 @@ footer {
 
     .nav-active {
         transform: translateX(0%);
+    }
+
+    /* Language selector responsive */
+    .language-selector {
+        margin-left: 0.5rem;
+    }
+
+    .language-current {
+        padding: 0.4rem 0.8rem;
+        min-width: 70px;
+    }
+
+    .language-current .lang-code {
+        font-size: 0.8rem;
+    }
+
+    .language-dropdown {
+        right: -20px;
+        min-width: 180px;
     }
 
     .hero {
