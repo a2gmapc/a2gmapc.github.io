@@ -63,6 +63,17 @@ fi
 echo "🔄 Configuración de migración:"
 echo "   Desde (AdMob): $CURRENT_PUBLISHER_ID"
 echo "   Hacia (AdSense): $NEW_PUBLISHER_ID"
+
+if [ "$CURRENT_PUBLISHER_ID" = "$NEW_PUBLISHER_ID" ]; then
+    show_warning "ATENCIÓN: Estás usando el mismo Publisher ID"
+    echo "   Esto es útil para testing, pero para AdSense necesitarás un ID diferente"
+    echo "   ¿Continuar con la 'migración' de testing? (y/n)"
+    read -r response
+    if [[ ! $response =~ ^[Yy]$ ]]; then
+        echo "Operación cancelada por el usuario"
+        exit 0
+    fi
+fi
 echo ""
 
 # Paso 1: Backup de archivos actuales
@@ -84,12 +95,22 @@ echo ""
 # Paso 2: Actualizar google-ads-config.js
 show_step "Paso 2: Actualizando configuración JavaScript"
 
-sed -i.backup "s/publisherId: '$CURRENT_PUBLISHER_ID'/publisherId: '$NEW_PUBLISHER_ID'/g" js/google-ads-config.js
+# Hacer backup del archivo
+cp js/google-ads-config.js js/google-ads-config.js.backup
 
+# Usar diferentes patrones para encontrar y reemplazar el Publisher ID
+sed -i.temp "s/publisherId: \"$CURRENT_PUBLISHER_ID\"/publisherId: \"$NEW_PUBLISHER_ID\"/g" js/google-ads-config.js
+sed -i.temp "s/publisherId: '$CURRENT_PUBLISHER_ID'/publisherId: '$NEW_PUBLISHER_ID'/g" js/google-ads-config.js
+
+# Verificar si el cambio se realizó
 if grep -q "$NEW_PUBLISHER_ID" js/google-ads-config.js; then
     show_success "google-ads-config.js actualizado"
+    rm js/google-ads-config.js.temp 2>/dev/null
+elif [ "$CURRENT_PUBLISHER_ID" = "$NEW_PUBLISHER_ID" ]; then
+    show_warning "El Publisher ID es el mismo (no se requiere cambio en JS)"
 else
     show_error "Error actualizando google-ads-config.js"
+    echo "Publisher ID actual encontrado: $(grep -o 'publisherId: "[^"]*"' js/google-ads-config.js || echo 'No encontrado')"
     exit 1
 fi
 echo ""
