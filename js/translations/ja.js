@@ -8,6 +8,10 @@ const ja = {
     // Ads
     ad_label: "広告",
     
+    // Navigation - New pages
+    nav_terms: "利用規約",
+    nav_contact: "お問い合わせ",
+    
     // Hero Section
     hero_title: "AndroidでApple Mapsリンクが正常に動作しなくてお困りですか？",
     hero_subtitle: "Apple 2 Google Maps Converterがこの問題を完全に解決します。",

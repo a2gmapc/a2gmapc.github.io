@@ -6,6 +6,10 @@ const id = {
     
     // Ads
     ad_label: "Iklan",
+    
+    // Navigation - New pages
+    nav_terms: "Syarat Layanan",
+    nav_contact: "Kontak",
     hero_title: "Lelah dengan tautan Apple Maps yang tidak berfungsi dengan baik di Android?",
     hero_subtitle: "Apple 2 Google Maps Converter menyelesaikan masalah ini sekali dan untuk selamanya.",
     hero_button: "Unduh Sekarang",

@@ -6,6 +6,10 @@ const ru = {
     
     // Ads
     ad_label: "Реклама",
+    
+    // Navigation - New pages
+    nav_terms: "Условия использования",
+    nav_contact: "Контакты",
     hero_title: "Устали от того, что ссылки Apple Maps не работают должным образом на Android?",
     hero_subtitle: "Apple 2 Google Maps Converter решает эту проблему раз и навсегда.",
     hero_button: "Скачать сейчас",

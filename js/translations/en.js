@@ -8,6 +8,10 @@ const en = {
     // Ads
     ad_label: "Advertisement",
     
+    // Navigation - New pages
+    nav_terms: "Terms of Service",
+    nav_contact: "Contact",
+    
     // Hero Section
     hero_title: "Tired of Apple Maps links not working properly on Android?",
     hero_subtitle: "Apple 2 Google Maps Converter solves this problem once and for all.",

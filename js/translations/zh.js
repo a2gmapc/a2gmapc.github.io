@@ -6,6 +6,10 @@ const zh = {
     
     // Ads
     ad_label: "广告",
+    
+    // Navigation - New pages
+    nav_terms: "服务条款",
+    nav_contact: "联系",
     hero_title: "厌倦了Apple Maps链接在Android上无法正常工作？",
     hero_subtitle: "Apple 2 Google Maps Converter一劳永逸地解决了这个问题。",
     hero_button: "立即下载",

@@ -6,6 +6,10 @@ const bn = {
     
     // Ads
     ad_label: "বিজ্ঞাপন",
+    
+    // Navigation - New pages
+    nav_terms: "সেবার শর্তাবলী",
+    nav_contact: "যোগাযোগ",
     hero_title: "Android এ Apple Maps লিঙ্কগুলি সঠিকভাবে কাজ না করায় ক্লান্ত?",
     hero_subtitle: "Apple 2 Google Maps Converter এই সমস্যাটি একবার এবং সবার জন্য সমাধান করে।",
     hero_button: "এখনই ডাউনলোড করুন",

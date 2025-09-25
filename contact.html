@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Apple 2 Google Maps Converter</title>
+    <link rel="icon" href="img/logo.png" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-app-pub-9657415184487447"
+            crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-app-pub-9657415184487447">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="A2GMC Logo">
+                <h1>A2GMC</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+                <li><a href="tutorial.html" data-i18n="nav_tutorial">Tutorial</a></li>
+                <li><a href="privacy.html" data-i18n="nav_privacy">Política de Privacidad</a></li>
+                <li><a href="terms.html" data-i18n="nav_terms">Términos de Servicio</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav_contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <h1 data-i18n="contact_title">Contacto</h1>
+            <p data-i18n="contact_subtitle">¿Tienes preguntas, sugerencias o necesitas ayuda? ¡Estamos aquí para ayudarte!</p>
+        </section>
+
+        <!-- Google Ad: Banner al inicio -->
+        <section class="ad-section">
+            <div class="ad-label" data-i18n="ad_label">Publicidad</div>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-app-pub-9657415184487447"
+                 data-ad-slot="9789392271"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-i18n="contact_email_title">Correo Electrónico</h3>
+                    <p data-i18n="contact_email_text">Para soporte técnico, sugerencias o consultas generales:</p>
+                    <a href="mailto:support@a2gmc.com" class="contact-link">support@a2gmc.com</a>
+                </div>
+
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fab fa-google-play"></i>
+                    </div>
+                    <h3 data-i18n="contact_playstore_title">Google Play Store</h3>
+                    <p data-i18n="contact_playstore_text">Deja tu reseña y calificación en la tienda oficial:</p>
+                    <a href="https://play.google.com/store/apps/details?id=org.santech.apple2googlemaps" class="contact-link" target="_blank">Ver en Play Store</a>
+                </div>
+
+                <div class="contact-method">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3 data-i18n="contact_github_title">Reportar Problemas</h3>
+                    <p data-i18n="contact_github_text">¿Encontraste un bug? Repórtalo en nuestro repositorio:</p>
+                    <a href="https://github.com/rsanjuan87/a2gmc/issues" class="contact-link" target="_blank">GitHub Issues</a>
+                </div>
+            </div>
+
+            <!-- Google Ad: Banner en medio -->
+            <div class="ad-section">
+                <div class="ad-label" data-i18n="ad_label">Publicidad</div>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-app-pub-9657415184487447"
+                     data-ad-slot="9789392271"
+                     data-ad-format="rectangle"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+            <div class="contact-form-section">
+                <h2 data-i18n="contact_form_title">Formulario de Contacto</h2>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact_form_name">Nombre *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" data-i18n="contact_form_email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" data-i18n="contact_form_subject">Asunto *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" data-i18n="contact_form_select">Selecciona un tema</option>
+                            <option value="support" data-i18n="contact_form_support">Soporte Técnico</option>
+                            <option value="suggestion" data-i18n="contact_form_suggestion">Sugerencia</option>
+                            <option value="bug" data-i18n="contact_form_bug">Reportar Bug</option>
+                            <option value="general" data-i18n="contact_form_general">Consulta General</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="device" data-i18n="contact_form_device">Dispositivo (opcional)</label>
+                        <input type="text" id="device" name="device" placeholder="Ej: Samsung Galaxy S21, Android 12">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" data-i18n="contact_form_message">Mensaje *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Describe tu consulta o problema en detalle..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary" data-i18n="contact_form_send">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <div class="contact-faq">
+                <h2 data-i18n="contact_faq_title">Preguntas Frecuentes</h2>
+                <div class="faq-item">
+                    <h3 data-i18n="contact_faq1_q">¿La aplicación es gratuita?</h3>
+                    <p data-i18n="contact_faq1_a">Sí, A2GMC es completamente gratuita y no tiene compras dentro de la aplicación.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 data-i18n="contact_faq2_q">¿Por qué no funciona en mi dispositivo?</h3>
+                    <p data-i18n="contact_faq2_a">Asegúrate de haber configurado correctamente los permisos. Consulta nuestro tutorial detallado para tu modelo específico de dispositivo.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 data-i18n="contact_faq3_q">¿Se almacenan mis datos de ubicación?</h3>
+                    <p data-i18n="contact_faq3_a">No. A2GMC procesa los enlaces localmente en tu dispositivo y no almacena ni transmite ningún dato personal.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 data-i18n="contact_faq4_q">¿Cuánto tiempo tarda en responder?</h3>
+                    <p data-i18n="contact_faq4_a">Generalmente respondemos dentro de 24-48 horas durante días laborales.</p>
+                </div>
+            </div>
+
+            <!-- Google Ad: Banner al final -->
+            <div class="ad-section">
+                <div class="ad-label" data-i18n="ad_label">Publicidad</div>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-app-pub-9657415184487447"
+                     data-ad-slot="9789392271"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="A2GMC Logo">
+                <h3>Apple 2 Google Maps Converter</h3>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_links">Enlaces</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="tutorial.html" data-i18n="nav_tutorial">Tutorial</a></li>
+                    <li><a href="privacy.html" data-i18n="nav_privacy">Política de Privacidad</a></li>
+                    <li><a href="terms.html" data-i18n="nav_terms">Términos de Servicio</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4 data-i18n="footer_social">Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2025 Apple 2 Google Maps Converter. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/google-ads-config.js"></script>
+    <script src="js/translation-loader.js"></script>
+    <script src="js/language-selector.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
