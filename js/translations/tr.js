@@ -3,6 +3,9 @@ const tr = {
     nav_home: "Ana Sayfa",
     nav_tutorial: "Öğretici",
     nav_privacy: "Gizlilik Politikası",
+    
+    // Ads
+    ad_label: "Reklam",
     hero_title: "Apple Maps bağlantılarının Android'de düzgün çalışmamasından yorgun musunuz?",
     hero_subtitle: "Apple 2 Google Maps Converter bu sorunu bir kez ve sonsuza kadar çözüyor.",
     hero_button: "Şimdi İndir",

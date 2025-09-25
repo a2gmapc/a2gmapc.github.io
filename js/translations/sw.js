@@ -5,6 +5,9 @@ const sw = {
     nav_tutorial: "Mafunzo",
     nav_privacy: "Sera ya Faragha",
     
+    // Ads
+    ad_label: "Matangazo",
+    
     // Hero Section
     hero_title: "Umechoka na miunganiko ya Apple Maps isiyofanya kazi vizuri kwenye Android?",
     hero_subtitle: "Apple 2 Google Maps Converter inamaliza tatizo hili kabisa.",

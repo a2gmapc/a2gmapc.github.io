@@ -3,6 +3,9 @@ const ur = {
     nav_home: "ہوم",
     nav_tutorial: "ٹیوٹوریل",
     nav_privacy: "پرائیویسی پالیسی",
+    
+    // Ads
+    ad_label: "اشتہار",
     hero_title: "کیا آپ تھک گئے ہیں کہ Apple Maps کے لنکس Android پر صحیح طریقے سے کام نہیں کرتے؟",
     hero_subtitle: "Apple 2 Google Maps Converter اس مسئلے کو ہمیشہ کے لیے حل کر دیتا ہے۔",
     hero_button: "ابھی ڈاؤن لوڈ کریں",

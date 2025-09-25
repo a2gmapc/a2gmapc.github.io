@@ -5,6 +5,9 @@ const es = {
     nav_tutorial: "Tutorial",
     nav_privacy: "Política de Privacidad",
     
+    // Ads
+    ad_label: "Publicidad",
+    
     // Hero Section
     hero_title: "¿Cansado de que los enlaces de Apple Maps no funcionen bien en Android?",
     hero_subtitle: "Apple 2 Google Maps Converter soluciona este problema de una vez por todas.",
