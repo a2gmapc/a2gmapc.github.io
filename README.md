@@ -129,7 +129,17 @@ Para ejecutar este sitio localmente:
 
 ## Despliegue
 
-El sitio está desplegado usando GitHub Pages y se puede acceder en: [https://yourusername.github.io/A2GMC](https://yourusername.github.io/A2GMC)
+El sitio está desplegado usando GitHub Pages y se puede acceder en: [https://a2gmapc.github.io](https://a2gmapc.github.io)
+
+## Repositorio Principal
+
+- **GitHub**: https://github.com/a2gmapc/a2gmapc.github.io
+- **Issues**: https://github.com/a2gmapc/a2gmapc.github.io/issues
+
+## Contacto
+
+- **Email**: a2gmapc@gmail.com
+- **Soporte**: Reporta problemas en GitHub Issues
 
 ## Licencia
 
