@@ -123,7 +123,10 @@ const en = {
     
     privacy_contact_title: "Contact",
     privacy_contact_text: "If you have any questions about this Privacy Policy, please don't hesitate to contact us:",
-    privacy_contact_email: "By email: a2gmapc@gmail.com"
+    privacy_contact_email: "By email: a2gmapc@gmail.com",
+    
+    // Ads
+    advertisement: "Advertisement"
 };
 
 export default en;

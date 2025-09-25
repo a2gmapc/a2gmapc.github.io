@@ -865,3 +865,82 @@ footer {
         transform: translateX(0);
     }
 }
+
+/* Google Ads Styles */
+.ad-section {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    text-align: center;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    border: 1px solid var(--medium-gray);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ad-section .adsbygoogle {
+    margin: 0 auto;
+    min-height: 280px;
+    border-radius: 4px;
+    background-color: var(--white);
+    border: 1px solid #ddd;
+}
+
+/* Responsive ads */
+@media (max-width: 768px) {
+    .ad-section {
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 4px;
+    }
+    
+    .ad-section .adsbygoogle {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ad-section {
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+    
+    .ad-section .adsbygoogle {
+        min-height: 150px;
+    }
+}
+
+/* Ad label (opcional para cumplir con políticas) */
+.ad-section::before {
+    content: "Publicidad";
+    display: block;
+    font-size: 0.75rem;
+    color: var(--medium-gray);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Ads en contenido específico */
+.tutorial-content .ad-section,
+.privacy-content .ad-section {
+    margin: 3rem auto;
+    max-width: 800px;
+}
+
+/* Sticky ad (opcional para ads laterales en desktop) */
+.sticky-ad {
+    position: sticky;
+    top: 100px;
+    float: right;
+    width: 300px;
+    margin-left: 2rem;
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+    .sticky-ad {
+        display: none;
+    }
+}
