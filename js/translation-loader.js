@@ -1,5 +1,5 @@
 // Translation Loader - Cargador dinámico de traducciones
-// Sistema modular de traducciones para A2GMC
+// Sistema modular de traducciones para MapsLink
 
 class TranslationLoader {
     constructor() {

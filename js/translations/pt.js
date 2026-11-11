@@ -11,63 +11,63 @@ const pt = {
     nav_terms: "Termos de Serviço",
     nav_contact: "Contato",
     hero_title: "Cansado dos links do Apple Maps não funcionarem corretamente no Android?",
-    hero_subtitle: "Apple 2 Google Maps Converter resolve este problema de uma vez por todas.",
+    hero_subtitle: "MapsLink Converter resolve este problema de uma vez por todas.",
     hero_button: "Baixar Agora",
-    features_title: "Por que você precisa do A2GMC?",
+    features_title: "Por que você precisa do MapsLink?",
     feature1_title: "Links quebrados",
     feature1_text: "Links do Apple Maps não funcionam corretamente em dispositivos Android.",
     feature2_title: "Tempo perdido",
     feature2_text: "Copiar coordenadas manualmente desperdiça tempo precioso.",
     feature3_title: "Navegação direta",
-    feature3_text: "Com A2GMC, qualquer link do Apple Maps abrirá automaticamente no Google Maps.",
+    feature3_text: "Com MapsLink, qualquer link do Apple Maps abrirá automaticamente no Google Maps.",
     howitworks_title: "Como funciona?",
     step1_text: "Receba um link do Apple Maps",
-    step2_text: "Compartilhe com A2GMC ou abra diretamente",
+    step2_text: "Compartilhe com MapsLink ou abra diretamente",
     step3_text: "Pronto! Abre automaticamente no Google Maps",
     download_title: "Baixar o aplicativo",
     download_subtitle: "Disponível na Google Play Store para todos os dispositivos Android",
     download_compatibility: "Compatível com Android 6.0 e posteriores",
     footer_links: "Links",
     footer_social: "Siga-nos",
-    footer_copyright: "© 2023 Apple 2 Google Maps Converter. Todos os direitos reservados.",
-    tutorial_title: "Como usar o Apple 2 Google Maps Converter",
+    footer_copyright: "© 2023 MapsLink Converter. Todos os direitos reservados.",
+    tutorial_title: "Como usar o MapsLink Converter",
     tutorial_subtitle: "Siga estes passos simples para configurar e usar nosso aplicativo",
     
     // Setup Instructions  
     tutorial_setup_title: "Configuração inicial",
-    tutorial_setup_step1: "Baixe e instale o A2GMC da Google Play Store",
+    tutorial_setup_step1: "Baixe e instale o MapsLink da Google Play Store",
     tutorial_setup_step2: "Abra o aplicativo e siga as instruções de configuração",
     tutorial_setup_step3: "Conceda as permissões necessárias quando solicitado",
     
     // Usage Methods
     tutorial_usage_title: "Métodos de uso",
     tutorial_method1_title: "Método 1: Compartilhamento direto",
-    tutorial_method1_desc: "Quando receber um link do Apple Maps, use a opção de compartilhamento para enviá-lo ao A2GMC",
+    tutorial_method1_desc: "Quando receber um link do Apple Maps, use a opção de compartilhamento para enviá-lo ao MapsLink",
     tutorial_method2_title: "Método 2: Abertura automática", 
     tutorial_method2_desc: "Após a configuração, simplesmente toque nos links do Apple Maps e eles abrirão automaticamente no Google Maps",
     
     // Device Specific
     tutorial_android_title: "Instruções específicas do Android",
     tutorial_android_step1: "Vá para Configurações > Aplicativos > Aplicativos padrão",
-    tutorial_android_step2: "Encontre 'Abrir links' e selecione A2GMC",
-    tutorial_android_step3: "Ative 'Abrir links suportados' para A2GMC",
+    tutorial_android_step2: "Encontre 'Abrir links' e selecione MapsLink",
+    tutorial_android_step3: "Ative 'Abrir links suportados' para MapsLink",
     
     // Troubleshooting
     tutorial_troubleshooting_title: "Solução de problemas",
     tutorial_troubleshooting_q1: "O aplicativo não abre automaticamente?",
-    tutorial_troubleshooting_a1: "Verifique se o A2GMC está definido como aplicativo padrão para links do Apple Maps nas configurações do seu dispositivo",
+    tutorial_troubleshooting_a1: "Verifique se o MapsLink está definido como aplicativo padrão para links do Apple Maps nas configurações do seu dispositivo",
     tutorial_troubleshooting_q2: "Os links não estão sendo convertidos?",
     tutorial_troubleshooting_a2: "Certifique-se de ter concedido todas as permissões necessárias e reinicie o aplicativo",
     faq_title: "Perguntas Frequentes",
     faq_q1: "Por que o aplicativo precisa de permissão para abrir links?",
-    faq_a1: "A2GMC precisa dessa permissão para interceptar links do Apple Maps e redirecioná-los para o Google Maps.",
+    faq_a1: "MapsLink precisa dessa permissão para interceptar links do Apple Maps e redirecioná-los para o Google Maps.",
     faq_q2: "O aplicativo coleta meus dados de localização?",
-    faq_a2: "Não. A2GMC não coleta nem armazena dados de localização.",
+    faq_a2: "Não. MapsLink não coleta nem armazena dados de localização.",
     faq_q3: "Funciona com todos os links do Apple Maps?",
-    faq_a3: "Sim, A2GMC é projetado para funcionar com todos os formatos de links do Apple Maps.",
+    faq_a3: "Sim, MapsLink é projetado para funcionar com todos os formatos de links do Apple Maps.",
     privacy_title: "Política de Privacidade",
     privacy_effective_date: "Data de vigência: 1º de janeiro de 2023",
-    privacy_intro: "Esta política de privacidade descreve como o Apple 2 Google Maps Converter (\"nós\", \"nosso\" ou \"aplicativo\") coleta, usa e protege suas informações.",
+    privacy_intro: "Esta política de privacidade descreve como o MapsLink Converter (\"nós\", \"nosso\" ou \"aplicativo\") coleta, usa e protege suas informações.",
     privacy_collection_title: "Coleta de informações",
     privacy_collection_desc: "Nosso aplicativo não coleta, armazena ou transmite dados pessoais ou informações de localização. O aplicativo funciona inteiramente no seu dispositivo.",
     privacy_usage_title: "Uso de informações", 
@@ -83,8 +83,8 @@ const pt = {
     privacy_contact_email: "Por email: a2gmapc@gmail.com",
     
     // Additional content
-    app_name: "Apple 2 Google Maps Converter",
-    app_short_name: "A2GMC",
+    app_name: "MapsLink Converter",
+    app_short_name: "MapsLink",
     loading: "Carregando...",
     error: "Erro",
     success: "Sucesso",
@@ -96,7 +96,7 @@ const pt = {
     
     // Extra tutorial content
     tutorial_tips_title: "Dicas úteis",
-    tutorial_tip1: "Certifique-se de que o A2GMC esteja definido como aplicativo padrão para todos os links do Apple Maps",
+    tutorial_tip1: "Certifique-se de que o MapsLink esteja definido como aplicativo padrão para todos os links do Apple Maps",
     tutorial_tip2: "Se o aplicativo não funcionar, tente limpar o cache do aplicativo nas configurações",
     tutorial_tip3: "Este aplicativo funciona offline e não requer conexão com a internet",
     tutorial_tip4: "Você pode usar este aplicativo com qualquer aplicativo de mapas instalado",
@@ -104,9 +104,9 @@ const pt = {
     
     // Additional FAQ
     faq_q4: "Este aplicativo é gratuito?",
-    faq_a4: "Sim, o A2GMC é completamente gratuito para baixar e usar, sem anúncios ou compras no aplicativo.",
+    faq_a4: "Sim, o MapsLink é completamente gratuito para baixar e usar, sem anúncios ou compras no aplicativo.",
     faq_q5: "Como desinstalar o aplicativo?",
-    faq_a5: "Você pode desinstalar o A2GMC como qualquer outro aplicativo Android através das configurações do dispositivo."
+    faq_a5: "Você pode desinstalar o MapsLink como qualquer outro aplicativo Android através das configurações do dispositivo."
 };
 
 export default pt;

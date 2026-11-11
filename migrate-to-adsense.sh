@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 🎯 Script para migrar de AdMob a AdSense
-# A2GMC - Apple to Google Maps Converter
+# MapsLink - Apple to Google Maps Converter
 
-echo "🚀 Migración AdMob → AdSense para A2GMC"
+echo "🚀 Migración AdMob → AdSense para MapsLink"
 echo "===================================="
 echo ""
 
@@ -144,7 +144,7 @@ show_step "Paso 4: Actualizando archivo ads.txt"
 pub_id_numbers=$(echo "$NEW_PUBLISHER_ID" | sed 's/ca-pub-//')
 
 cat > ads.txt << EOF
-# ads.txt para A2GMC - Apple to Google Maps Converter
+# ads.txt para MapsLink - Apple to Google Maps Converter
 # Generado automáticamente: $(date)
 # Migración de AdMob a AdSense
 
@@ -158,7 +158,7 @@ echo ""
 show_step "Paso 5: Generando código de Auto Ads actualizado"
 
 cat > auto-ads-code.html << EOF
-<!-- Auto Ads de AdSense para A2GMC -->
+<!-- Auto Ads de AdSense para MapsLink -->
 <!-- Agregar en la sección <head> de cada página -->
 
 <script>

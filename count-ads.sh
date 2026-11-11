@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Conteo actualizado de Google Ads en A2GMC"
+echo "🚀 Conteo actualizado de Google Ads en MapsLink"
 echo "==========================================="
 echo ""
 
