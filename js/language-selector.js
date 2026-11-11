@@ -1,4 +1,4 @@
-// language-selector.js - Selector de idiomas para A2GMC - Versión Modular
+// language-selector.js - Selector de idiomas para MapsLink - Versión Modular
 class LanguageSelector {
     constructor() {
         // Primero definir los idiomas disponibles
@@ -35,7 +35,7 @@ class LanguageSelector {
             return urlLang;
         }
 
-        const storedLang = localStorage.getItem('a2gmc-language');
+        const storedLang = localStorage.getItem('MapsLink-language');
         if (storedLang && this.isValidLanguage(storedLang)) {
             return storedLang;
         }
@@ -154,7 +154,7 @@ class LanguageSelector {
         }
 
         this.currentLanguage = newLang;
-        localStorage.setItem('a2gmc-language', newLang);
+        localStorage.setItem('MapsLink-language', newLang);
 
         // Update selector display
         const currentSelector = document.getElementById('language-current');

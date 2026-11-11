@@ -1,10 +1,10 @@
-# Apple 2 Google Maps Converter Web
+# MapsLink Converter Web
 
-Sitio web oficial para la aplicación Apple 2 Google Maps Converter (A2GMC) con soporte multiidioma.
+Sitio web oficial para la aplicación MapsLink Converter (MapsLink) con soporte multiidioma.
 
 ## Descripción
 
-A2GMC es una aplicación para Android que convierte automáticamente los enlaces de Apple Maps en enlaces de Google Maps, solucionando el problema de compatibilidad entre iOS y Android.
+MapsLink es una aplicación para Android que convierte automáticamente los enlaces de Apple Maps en enlaces de Google Maps, solucionando el problema de compatibilidad entre iOS y Android.
 
 ## Estructura del proyecto
 

@@ -1,4 +1,4 @@
-# 📋 Checklist para aprobación de AdSense - A2GMC
+# 📋 Checklist para aprobación de AdSense - MapsLink
 
 ## ✅ Requisitos que YA cumples:
 

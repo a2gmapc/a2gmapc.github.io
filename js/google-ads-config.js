@@ -1,5 +1,5 @@
 /**
- * Configuración de Google Ads para A2GMC
+ * Configuración de Google Ads para MapsLink
  * 
  * Para configurar tus ads:
  * 1. Reemplaza "ca-pub-XXXXXXXXXXXXXXXXX" con tu ID de AdSense real
